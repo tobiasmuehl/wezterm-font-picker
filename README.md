@@ -2,9 +2,11 @@
 
 **Pick by eye. Find your terminal font.**
 
+### ▶ [Try it live: terminal-font-duel.t-c8f.workers.dev](https://terminal-font-duel.t-c8f.workers.dev)
+
 A blind tournament for terminal fonts. Compare two real Nerd Fonts in identical code samples, pick the one that reads better, and keep going until you have a favorite. **16 families. At most 20 comparisons. No installation needed to try them.**
 
-![Two terminal font previews with names hidden](docs/preview.png)
+[![Two terminal font previews with names hidden](docs/preview.png)](https://terminal-font-duel.t-c8f.workers.dev)
 
 ## Why this exists
 
