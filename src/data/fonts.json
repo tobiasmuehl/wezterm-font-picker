@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-26",
+  "fonts": [
+    {
+      "id": "jetbrains-mono",
+      "label": "JetBrains Mono",
+      "cask": "font-jetbrains-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-jetbrains-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-jetbrains-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/JetBrainsMono.tar.xz",
+      "archiveSha256": "04d5e8f903693f9dd13e16f867e994834e681eb3c72c0d337a770dcda09010cf",
+      "licenses": [
+        "licenses/jetbrains-mono/OFL.txt"
+      ],
+      "variants": [
+        {
+          "label": "No-ligature face",
+          "file": "fonts/jetbrains-mono-nl.woff2",
+          "family": "JetBrainsMonoNL Nerd Font Mono",
+          "originalFile": "JetBrainsMonoNLNerdFontMono-Regular.ttf",
+          "originalSha256": "d9a80146bbf2ff23b187316a3e82ee2a2ceab8220267fe09ac150ca46ab2c3bd",
+          "sha256": "6435ca5f545d600a99a6b1966dd9b22414ecd4ba61b4895d733202b084f649cc",
+          "bytes": 1060504,
+          "fontVersion": "Version 2.304; ttfautohint (v1.8.4.7-5d5b);Nerd Fonts 3.5.1",
+          "weight": 400
+        }
+      ],
+      "file": "fonts/jetbrains-mono.woff2",
+      "family": "JetBrainsMono Nerd Font Mono",
+      "originalFile": "JetBrainsMonoNerdFontMono-Regular.ttf",
+      "originalSha256": "f2a5ea6cfab397445ffab00c0370927b66d61e560a05db5db271b42006381c1a",
+      "sha256": "41bd25a0241c5c0d69c24b3a53f4021fa234feaa5821d6e087d90c3ab8f6592a",
+      "bytes": 1082348,
+      "fontVersion": "Version 2.304; ttfautohint (v1.8.4.7-5d5b);Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "fira-code",
+      "label": "Fira Code",
+      "cask": "font-fira-code-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-fira-code-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-fira-code-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/FiraCode.tar.xz",
+      "archiveSha256": "68e3bd6164864b8b514605bc34e3a87ac401c8c48682fcce6478c70263340207",
+      "licenses": [
+        "licenses/fira-code/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/fira-code.woff2",
+      "family": "FiraCode Nerd Font Mono",
+      "originalFile": "FiraCodeNerdFontMono-Regular.ttf",
+      "originalSha256": "53eebbaaa09c483ebb27fdd5cf21073cc4b760308e5d666728e9db2f41616c00",
+      "sha256": "51f295419f493197ffd6ec72269fa46b1dd7ba709566010273441cb423459418",
+      "bytes": 1241908,
+      "fontVersion": "Version 6.002;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "caskaydia-cove",
+      "label": "Caskaydia Cove",
+      "cask": "font-caskaydia-cove-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-caskaydia-cove-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-caskaydia-cove-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CascadiaCode.tar.xz",
+      "archiveSha256": "ae598e9401e2846aa3ee364513715de0490b844a4b54f0768991f45f23aa8369",
+      "licenses": [
+        "licenses/caskaydia-cove/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/caskaydia-cove.woff2",
+      "family": "CaskaydiaCove Nerd Font Mono",
+      "originalFile": "CaskaydiaCoveNerdFontMono-Regular.ttf",
+      "originalSha256": "4e1e371b188bca589ec1ee7df494ca7bbb187c1c38228c059e5705f4029a9dc0",
+      "sha256": "c9de510ce7dc22d0ef0a5e35fd0af7e59f293509fd126288a8d98560e8fe4343",
+      "bytes": 1260924,
+      "fontVersion": "Version 2407.024; ttfautohint (v1.8.4);Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "hack",
+      "label": "Hack",
+      "cask": "font-hack-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-hack-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-hack-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hack.tar.xz",
+      "archiveSha256": "cdd389472e10e2261520140ff1b382b4f8a226af5fd0b2735b975d31151d9c3c",
+      "licenses": [
+        "licenses/hack/LICENSE.md"
+      ],
+      "variants": [],
+      "file": "fonts/hack.woff2",
+      "family": "Hack Nerd Font Mono",
+      "originalFile": "HackNerdFontMono-Regular.ttf",
+      "originalSha256": "e5aeb58577a8acf2b42083e4a07ce48bd53116fdd868636403cadb5b547351be",
+      "sha256": "57cb854e091baf878d9a7398949e79bcfbfe49d920e0568d553443b3adbf86f2",
+      "bytes": 1250528,
+      "fontVersion": "Version 3.003;[3114f1256]-release; ttfautohint (v1.7) -l 6 -r 50 -G 200 -x 10 -H 181 -D latn -f latn -m \"Hack-Regular-TA.txt\" -w G -W -t -X \"\";Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "iosevka",
+      "label": "Iosevka",
+      "cask": "font-iosevka-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-iosevka-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-iosevka-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Iosevka.tar.xz",
+      "archiveSha256": "3b94ea1dc3955756762f977b7677bca671947dd56bc755a6f8465a8e83b5f257",
+      "licenses": [
+        "licenses/iosevka/LICENSE.md"
+      ],
+      "variants": [],
+      "file": "fonts/iosevka.woff2",
+      "family": "Iosevka Nerd Font Mono",
+      "originalFile": "IosevkaNerdFontMono-Regular.ttf",
+      "originalSha256": "f803b8eac0897b94eef776c54dd0468cd1780ec065b6877ad839cf79fcc6f162",
+      "sha256": "356d56b4ed28a72bf6c68aa0a3fcaf0fd9e2c57b9f9b0ae81d295f2ce7c87e7f",
+      "bytes": 2598412,
+      "fontVersion": "Version 34.8.0; ttfautohint (v1.8.4);Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "meslo-lg",
+      "label": "Meslo LG",
+      "cask": "font-meslo-lg-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-meslo-lg-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-meslo-lg-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Meslo.tar.xz",
+      "archiveSha256": "6b6624632dc6873dfb7681c3f818e7c01ab601ab707690b6440933bbe57e2b11",
+      "licenses": [
+        "licenses/meslo-lg/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/meslo-lg.woff2",
+      "family": "MesloLGM Nerd Font Mono",
+      "originalFile": "MesloLGMNerdFontMono-Regular.ttf",
+      "originalSha256": "35c4453cc6d0861e505b62fc7039b3fb8db9966ed75fd13dda2115e2ca94c7f7",
+      "sha256": "2178b0d0eee6242b799228a5939f99d3a8a2f8419ce5e9f418aa81cd8c30c2c4",
+      "bytes": 1294636,
+      "fontVersion": "Version 1.210;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "sauce-code-pro",
+      "label": "Source Code Pro",
+      "cask": "font-sauce-code-pro-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-sauce-code-pro-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-sauce-code-pro-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/SourceCodePro.tar.xz",
+      "archiveSha256": "50ead7bb7addce27cf4b55f4fffb669b5f1899fece675fad623a2a75a478c8c7",
+      "licenses": [
+        "licenses/sauce-code-pro/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/sauce-code-pro.woff2",
+      "family": "SauceCodePro Nerd Font Mono",
+      "originalFile": "SauceCodeProNerdFontMono-Regular.ttf",
+      "originalSha256": "cbfe6a91123b9d78a1b593cb2efa10a806a704490e3cea6b894078b86d67c0b1",
+      "sha256": "be56b92cf328ea8babca7eb366f2ea680c6de19d008d462fc9ce4441046aae8e",
+      "bytes": 1066868,
+      "fontVersion": "Version 2.042;hotconv 1.1.0;makeotfexe 2.6.0;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "blex-mono",
+      "label": "IBM Plex Mono",
+      "cask": "font-blex-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-blex-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-blex-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/IBMPlexMono.tar.xz",
+      "archiveSha256": "3d226683be9fc35f98683837568497f300307bc9b7aefc1617a368f190ef963a",
+      "licenses": [
+        "licenses/blex-mono/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/blex-mono.woff2",
+      "family": "BlexMono Nerd Font Mono",
+      "originalFile": "BlexMonoNerdFontMono-Regular.ttf",
+      "originalSha256": "9f8fe62fc71c7463677fb8dc6e47fe77aa470649383be0731706f746468b61eb",
+      "sha256": "86bfbd3964d9b6792a765a9c46be564edc43047e2fef9ffbfd1ad928eae17969",
+      "bytes": 1040572,
+      "fontVersion": "Version 2.004;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "mononoki",
+      "label": "Mononoki",
+      "cask": "font-mononoki-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-mononoki-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-mononoki-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Mononoki.tar.xz",
+      "archiveSha256": "84cf96bf81645f97eb11a410e6febad864784a0a254bba4a348d6ff9665a0114",
+      "licenses": [
+        "licenses/mononoki/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/mononoki.woff2",
+      "family": "Mononoki Nerd Font Mono",
+      "originalFile": "MononokiNerdFontMono-Regular.ttf",
+      "originalSha256": "0d01bc20457ceae88bcd2a006fb4054c91768ba3b0e662ae703f4d0033531e2e",
+      "sha256": "18f19483f141510ff1823dcab1975681f2cddcaa1dde4536c22059a5b1b943ea",
+      "bytes": 1040860,
+      "fontVersion": "Version 1.006;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "victor-mono",
+      "label": "Victor Mono",
+      "cask": "font-victor-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-victor-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-victor-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/VictorMono.tar.xz",
+      "archiveSha256": "c6c52657921835862314b7edbbccf5695146c1e6c5d3507c3deab88e555215ed",
+      "licenses": [
+        "licenses/victor-mono/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/victor-mono.woff2",
+      "family": "VictorMono Nerd Font Mono",
+      "originalFile": "VictorMonoNerdFontMono-Regular.ttf",
+      "originalSha256": "9e43726e7c3ff61785a05a7f0691dde1a361cafaab849ae28467f84eb42ad7d1",
+      "sha256": "7b2b59198abeca685306603974670caf5a0f6d624aabdd2e170f4c3069d278ba",
+      "bytes": 1078664,
+      "fontVersion": "Version 1.560;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "0xproto",
+      "label": "0xProto",
+      "cask": "font-0xproto-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-0xproto-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-0xproto-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/0xProto.tar.xz",
+      "archiveSha256": "3f2d36e4fa8b3af2f97b14b57c5b0f57f4c1bda5a59533fb913a9ff3344db7ce",
+      "licenses": [
+        "licenses/0xproto/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/0xproto.woff2",
+      "family": "0xProto Nerd Font Mono",
+      "originalFile": "0xProtoNerdFontMono-Regular.ttf",
+      "originalSha256": "9d8f521c75a8aa804a942baa3f6438cbfd311d12d59251af955aa75f51b8e135",
+      "sha256": "a43712c43bb057811479c346fb88f5beaf27fd7ed44b71af542940479405fc54",
+      "bytes": 1060372,
+      "fontVersion": "Version 2.502; ttfautohint (v1.8.4.16-eb64);Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "commit-mono",
+      "label": "Commit Mono",
+      "cask": "font-commit-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-commit-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-commit-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/CommitMono.tar.xz",
+      "archiveSha256": "7ee1e16909f0fd05cee30db4299753c33a6134c418c828d6d8523d246ee3f836",
+      "licenses": [
+        "licenses/commit-mono/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/commit-mono.woff2",
+      "family": "CommitMono Nerd Font Mono",
+      "originalFile": "CommitMonoNerdFontMono-Regular.otf",
+      "originalSha256": "24776d3423687cb3c18e5872f44678c9c2d0fe9564e50ee393931b80d7663fa5",
+      "sha256": "41f88c07f07a9c312c9a0aa8d30b5127a404540d5aeadebb9063dafcee5c44df",
+      "bytes": 1212580,
+      "fontVersion": "Version Version 1.143;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "geist-mono",
+      "label": "Geist Mono",
+      "cask": "font-geist-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-geist-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-geist-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/GeistMono.tar.xz",
+      "archiveSha256": "d3ba4a7418cde16963fda0caa4f7ae866c509e0a864ec21e393455e1906e070c",
+      "licenses": [
+        "licenses/geist-mono/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/geist-mono.woff2",
+      "family": "GeistMono Nerd Font Mono",
+      "originalFile": "GeistMonoNerdFontMono-Regular.otf",
+      "originalSha256": "ac1fd18ba4cf7c2d0e58af2765f7c913f88c0f43b49f7b6609f9572755112756",
+      "sha256": "c30a01670ad8f45230c57f914f5f5b038dd844edc690d2e3844fbdf501c9bfb1",
+      "bytes": 1223548,
+      "fontVersion": "Version 1.700;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "roboto-mono",
+      "label": "Roboto Mono",
+      "cask": "font-roboto-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-roboto-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-roboto-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/RobotoMono.tar.xz",
+      "archiveSha256": "61f53438b240a00c87c92dc2c372db0bbb264473b36a8144ea62babf787f8383",
+      "licenses": [
+        "licenses/roboto-mono/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/roboto-mono.woff2",
+      "family": "RobotoMono Nerd Font Mono",
+      "originalFile": "RobotoMonoNerdFontMono-Regular.ttf",
+      "originalSha256": "bed2c53786d6ca07be14c73371f23638e97261426028b119da4adf8c47b8fd13",
+      "sha256": "84efba36ccf271d505eb7d91dd21cd33e871e6adc1730c01ad407ab203e75eef",
+      "bytes": 1191720,
+      "fontVersion": "Version 3.000;Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "go-mono",
+      "label": "Go Mono",
+      "cask": "font-go-mono-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-go-mono-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-go-mono-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Go-Mono.tar.xz",
+      "archiveSha256": "d993c556cf0e7c4b2455628063a5adb441b3517a297783185c262d77900d70dd",
+      "licenses": [
+        "licenses/go-mono/LICENSE.txt"
+      ],
+      "variants": [],
+      "file": "fonts/go-mono.woff2",
+      "family": "GoMono Nerd Font Mono",
+      "originalFile": "GoMonoNerdFontMono-Regular.ttf",
+      "originalSha256": "6002170e222b8f9dba20ed6116b42d1ebde52cb24289cd69b3e4ad7960c40b12",
+      "sha256": "27cd344fb3be167048aa0b33aaf769e47939d25d41a786f7fbff589b7b6ac49a",
+      "bytes": 1203864,
+      "fontVersion": "Version 2.010; ttfautohint (v1.8.3);Nerd Fonts 3.5.1",
+      "weight": 400
+    },
+    {
+      "id": "monaspice",
+      "label": "Monaspice Neon",
+      "cask": "font-monaspice-nerd-font",
+      "version": "3.5.1",
+      "brewCommand": "brew install --cask font-monaspice-nerd-font",
+      "source": "https://formulae.brew.sh/api/cask/font-monaspice-nerd-font.json",
+      "downloadUrl": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Monaspace.tar.xz",
+      "archiveSha256": "7cdb44b7cd3855a231641b3cc4cf38f434d615d12e1c475eb86232868c667dc0",
+      "licenses": [
+        "licenses/monaspice/LICENSE"
+      ],
+      "variants": [],
+      "file": "fonts/monaspice.woff2",
+      "family": "MonaspiceNe Nerd Font Mono",
+      "originalFile": "MonaspiceNeNerdFontMono-Regular.otf",
+      "originalSha256": "052c899680aec112098999cba87958d5e15d643c79eae79fa853b0af43b8d2d7",
+      "sha256": "d7228db2507bf9aaf6dbefd5ecd012feb71e6c5fc167f565f152e6aec0d550ce",
+      "bytes": 1486976,
+      "fontVersion": "Version 001.400;Nerd Fonts 3.5.1",
+      "weight": 400
+    }
+  ],
+  "revision": "b1564b5d171c4229"
+}
