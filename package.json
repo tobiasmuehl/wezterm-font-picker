@@ -9,17 +9,21 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "fonts:import": "python3 scripts/import-fonts.py"
+    "fonts:import": "python3 scripts/import-fonts.py",
+    "video": "python3 video/music.py && remotion studio video/index.ts",
+    "video:render": "python3 video/music.py && remotion render video/index.ts Ad docs/ad.mp4 --crf=23 --log=error && ffmpeg -y -loglevel error -i docs/ad.mp4 -vf \"fps=15,scale=800:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=96[p];[b][p]paletteuse=dither=bayer:bayer_scale=4\" docs/ad.gif"
   },
   "dependencies": {
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@remotion/cli": "^4.0.529",
     "@types/node": "^24.0.0",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "6.1.1",
+    "remotion": "^4.0.529",
     "typescript": "7.0.2",
     "vite": "8.3.1",
     "vitest": "5.0.2"

@@ -6,7 +6,9 @@
 
 A blind tournament for terminal fonts. Compare two real Nerd Fonts in identical code samples, pick the one that reads better, and keep going until you have a favorite. **16 families. At most 20 comparisons. No installation needed to try them.**
 
-[![Two terminal font previews with names hidden](docs/preview.png)](https://terminal-font-duel.t-c8f.workers.dev)
+[![Terminal Font Duel in 20 seconds: so many terminal fonts, pick left or right until one is left, then install it with Homebrew](docs/ad.gif)](docs/ad.mp4)
+
+<sub>▶ Click for the video with sound.</sub>
 
 ## Why this exists
 
